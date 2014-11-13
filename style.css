@@ -1,7 +1,7 @@
 @import url('http://fonts.googleapis.com/css?family=Muli');
 
 body {
-  padding: 50px;
+  padding: 30px;
   font: 14px "Muli", Helvetica, Arial, sans-serif;
   background: #34495E
 }
@@ -16,8 +16,17 @@ h1{
 p {
 	font-size: 30px;
 	color: #ffffff;
-	text-shadow: 1px 1px #67809F;
 	text-align: center
+}
+
+.profile-pic {
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
 }
 
 .white-icon {
